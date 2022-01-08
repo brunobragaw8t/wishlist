@@ -4,6 +4,7 @@ import { Routes, Route } from 'react-router-dom';
 import 'bootstrap';
 import Header from './components/partials/Header';
 import Home from './components/Home/Index';
+import NotFound from './components/NotFound/Index';
 
 function App() {
   return (
@@ -12,6 +13,8 @@ function App() {
 
       <Routes>
         <Route path="/" element={<Home />} />
+
+        <Route path="*" element={<NotFound />} />
       </Routes>
     </div>
   );
