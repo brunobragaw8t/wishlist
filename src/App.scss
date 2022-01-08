@@ -16,7 +16,18 @@ $secondary: #3f51b5;
 
 
 /**
+ * Fonts
+ */
+
+@import url('https://fonts.googleapis.com/css2?family=BenchNine:wght@300;400;700&display=swap');
+
+$font-family-headings: 'BenchNine', sans-serif;
+
+
+/**
  * Partials
  */
 
+@import 'css/headings';
+@import 'css/header';
 @import 'css/notfound';
