@@ -6,7 +6,7 @@ interface ContentSectionProps {
 
 const ContentSection:FC<ContentSectionProps> = ({ children, className }) => {
   return (
-    <div className={`py-5 ${className}`}>
+    <div className={`py-5 bg-light ${className}`}>
       {children}
     </div>
   )
