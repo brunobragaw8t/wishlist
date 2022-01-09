@@ -15,7 +15,7 @@ const Footer = () => {
             </div>
 
             <div className="col-sm-6 col-md-4">
-              <h5 className="text-white text-uppercase">Social media</h5>
+              <h5 className="text-white">Social media</h5>
 
               <div className="d-flex">
                 <a href="https://www.facebook.com/" target="_blank" title="Facebook" className="me-3">
@@ -29,7 +29,7 @@ const Footer = () => {
             </div>
 
             <div className="col-sm-6 col-md-4">
-              <h5 className="text-white text-uppercase">Legal information</h5>
+              <h5 className="text-white">Legal information</h5>
 
               <ul className="text-light">
                 <li>
