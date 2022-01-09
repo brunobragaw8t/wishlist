@@ -5,7 +5,7 @@ const Header = () => {
     <nav className="navbar navbar-expand-sm navbar-dark bg-secondary">
       <div className="container">
         <Link className="navbar-brand" to="/">
-          <img src="/img/logos/logo.png" alt="Wishlist Logo" height="60" />
+          <img src="/img/logos/logo-white.png" alt="Wishlist Logo" height="60" />
         </Link>
 
         <button className="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">

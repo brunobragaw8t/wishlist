@@ -7,7 +7,7 @@ const Footer = () => {
         <div className="container">
           <div className="row g-4">
             <div className="col-md-4">
-              <img src="/img/logos/logo.png" alt="Wishlist logo" height="60" />
+              <img src="/img/logos/logo-white.png" alt="Wishlist logo" height="60" />
 
               <p className="text-light mt-2 mb-0">
                 Wishlist is the place where you grant your loved ones' wishes.
