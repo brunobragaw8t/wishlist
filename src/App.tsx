@@ -3,8 +3,8 @@ import './App.scss';
 import { Routes, Route } from 'react-router-dom';
 import 'bootstrap';
 import Header from './components/partials/Header';
-import Home from './components/Home/Index';
-import NotFound from './components/NotFound/Index';
+import Home from './components/Home';
+import NotFound from './components/NotFound';
 
 function App() {
   return (
