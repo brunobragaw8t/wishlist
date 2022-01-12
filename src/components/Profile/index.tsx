@@ -1,3 +1,5 @@
+import { auth } from '../../firebase';
+import { useAuthState } from 'react-firebase-hooks/auth';
 import { useState } from 'react';
 import ContentSection from '../partials/ContentSection';
 import FormForgotPassword from './FormForgotPassword';
@@ -5,13 +7,13 @@ import FormLogin from './FormLogin';
 import FormRegister from './FormRegister';
 
 const Profile = () => {
-  const isLoggedIn = false; // TODO: connect this with auth system
+  const [user] = useAuthState(auth);
   const [forgotPassword, setForgotPassword] = useState(false);
 
   return (
     <ContentSection>
       <div className="container">
-        {!isLoggedIn ? (
+        {!user ? (
           <div className="row">
             <div className="col-md-6">
               <div className="p-4 bg-white rounded">

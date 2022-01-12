@@ -1,8 +1,12 @@
 .navbar-nav {
-  a {
+  .nav-link,
+  .dropdown-item {
     font-family: $font-family-headings;
     text-transform: uppercase;
     font-weight: 700;
+  }
+
+  .nav-link {
     font-size: 18px;
   }
 }
