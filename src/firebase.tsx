@@ -1,7 +1,7 @@
 import { initializeApp } from 'firebase/app';
 import { getAuth } from 'firebase/auth';
 
-const app = initializeApp({
+export const app = initializeApp({
   apiKey: 'AIzaSyDv9S_xankbXibDMfWH17NtMHiTch72Uf4',
   authDomain: 'wishlist-4bacd.firebaseapp.com',
   databaseURL: 'https://wishlist-4bacd-default-rtdb.europe-west1.firebasedatabase.app',
